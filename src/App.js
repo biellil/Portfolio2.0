@@ -1,10 +1,6 @@
 import React from 'react';
 import {BrowserRouter} from 'react-router-dom';
-
 import { routes as Routes } from './Routes';
-
-
-
 
 function App() {
   return (
