@@ -99,4 +99,22 @@ header .navbar ul li a {
 .navbar .material-symbols-outlined{
     font-size: 35px;
     color: #24262a;
+   
+      
 }
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+  }
+@media (max-width: 469px) {
+    .tohide {
+      display: none;
+    }
+  }
+  @media (min-width: 470px) {
+    .tohideM {
+      display: none;
+    }
+  }
+  
