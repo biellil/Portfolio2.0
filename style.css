@@ -75,8 +75,8 @@ header {
     justify-content: space-between;
     padding: 1.7rem 10%;
     height: 6.5rem;
-    background-color: #fff;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    background-color: #e0dcdc;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 header .navbar ul {
@@ -117,4 +117,11 @@ header .navbar ul li a {
       display: none;
     }
   }
-  
+.navbarM{
+  position: absolute;
+ top: 105px;
+ background-color: #e0dcdc;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  height: 680px;
+  width: 200px;
+}
