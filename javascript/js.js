@@ -7,4 +7,5 @@ menu.addEventListener("click", function() {
   } else {
     menu.textContent = "menu";
   }
+  
 });
