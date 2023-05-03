@@ -86,9 +86,9 @@ header {
   width: 60px;
  };
 
-nav .navbar ul{
+.navbar ul{
   display: flex;
-  flex-direction: column;
+  
 }
 
 
