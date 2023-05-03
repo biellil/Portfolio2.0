@@ -1,8 +1,5 @@
 
-body, p{
-	color: #4d5055; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -63,32 +60,35 @@ h6 {
 ul{
 	
 	list-style-type: none;
-}
+} 
+li{
+	
+	list-style-type: none;
+} 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
+  justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
     padding: 1.7rem 10%;
     height: 6.5rem;
     background-color: #5A4FCF;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 .navbar{
+  
   display: flex;
 }
 .navbar img{
-  color: black;
-  width: 60px;
- };
+  height: 96px;
+  width: 96px;
+ }
 
-.navbar ul{
+.list {
   display: flex;
   
+}
+.list li{
+
+  margin-left: 30px;
 }
 
 
